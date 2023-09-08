@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+@media screen and (min-width: 297px) and (max-width: 699px) {
+    .page {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 150px 1370px 240px;
+        grid-template-areas: "header"
+        "create-form"
+        "site-footer";
+    }
+
+    .page .header {
+        grid-area: header;
+        background-color: #2193b0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .header .logo {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header .user-log {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .user-log img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .page .create_form {
+        grid-area: create-form;
+        width: 100%;
+        height: 100%;
+        margin-top: 30px;
+    }
+
+    .create_form .tittle {
+        width: 100%;
+        height: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .create_form .form {
+        width: 100%;
+        height: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .form form {
+        width: 93%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .sct {
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .sct input, select {
+        margin: auto;
+        width: 80%;
+        height: 33px;
+        outline: none;
+        padding-left: 7px;
+        font-size: 17px;
+    }
+
+    .sct > label {
+        width: 80%;
+        margin: auto;
+    }
+
+    .submit {
+       background-color: #2193b0;
+       outline: none;
+       border: none;
+    }
+
+    .page .site-footer {
+        grid-area: site-footer;
+        width: 100%;
+        height: 150px;
+        margin-top: 90px;
+        background-color: #2193b0;
+    }
+
+    .site-footer .Index {
+        background-color: #134F5C;
+        width: 100%;
+        height: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Index h4 {
+        font-size: 10px;
+    }
+
+    .Index h4 a {
+        color: white;
+        text-decoration: none;
+
+    }
+
+    .content-footer {
+        width: 100%;
+        height: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .content-footer .one, .two {
+        display: none;
+    }
+
+    .three {
+        width: 90%;
+    }
+
+    .copy {
+        font-size: 12px;
+    }
+    
+}
+
+@media screen and (min-width: 700px) {
+
+    
+}
