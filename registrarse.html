@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles/registrarse.css">
+        <title>Registrarse a selectsoft</title>
+    </head>
+    <body>
+        <main class="flex">
+            <header>
+                <img src="img/selectsoft.jpeg" alt="Logo Selectsoft">
+            </header>
+            <section id="datos_personales">
+                <h2>DATOS PERSONALES</h2>
+                <section class="info">
+                    <article>
+                        <label for="nombres">NOMBRES</label>
+                        <input type="text" id="nombres" name="nombres">
+                    </article>
+                    <article>
+                        <label for="apellidos">APELLIDOS</label>
+                        <input type="text" id="apellidos" name="apellidos">
+                    </article>
+                    <article>
+                        <label for="fecha_nacimiento">FECHA DE NACIMIENTO</label>
+                        <input type="date" id="fecha_nacimiento" name="fecha_nacimiento">
+                    </article>
+                    <article>
+                        <label for="edad">EDAD</label>
+                        <input type="number" id="edad" name="edad">
+                    </article>
+                    <article>
+                        <label for="tipo_documento">TIPO DE DOCUMENTO</label>
+                        <select id="tipo_documento" name="tipo_documento">
+                            <option value="cedula">Cédula de Ciudadanía</option>
+                            <option value="tarjeta">Tarjeta de Identidad</option>
+                            <option value="extranjero">Cédula de Extranjería</option>
+                            <option value="ciego">Número ciego SENA</option>
+                            <option value="pasaporte">Pasaporte</option>
+                            <option value="dni">DNI</option>
+                            <option value="nit">NIT</option>
+                            <option value="ramv">PEP-RAMV</option>
+                            <option value="pep">PEP</option>
+                            <option value="ppt">Permiso por Protección Temporal</option>
+                        </select>
+                    </article>
+                    <article>
+                        <label for="numero_documento">NÚMERO DE DOCUMENTO</label>
+                        <input type="number" id="numero_documento" name="numero_documento">
+                    </article>
+                    <article>
+                        <label for="tipo_sangre">TIPO DE SANGRE</label>
+                        <select id="tipo_sangre" name="tipo_sangre">
+                            <option value="a">A</option>
+                            <option value="b">B</option>
+                            <option value="o">O</option>
+                            <option value="ab">AB</option>
+                        </select>
+                    </article>
+                    <article>
+                        <label for="rh">RH</label>
+                        <select id="rh" name="rh">
+                            <option value="positivo">+</option>
+                            <option value="negativo">-</option>
+                        </select>
+                    </article>
+                    <article>
+                        <label for="eps">EPS</label>
+                        <input type="text" id="eps" name="eps">
+                    </article>
+                </section>
+            </section>
+            <section id="ubicacion">
+                <h2>UBICACIÓN</h2>
+                <section class="info">
+                    <article>
+                        <label for="pais">PAÍS</label>
+                        <input type="text" id="pais" name="pais">
+                    </article>
+                    <article>
+                        <label for="departamento">DEPARTAMENTO</label>
+                        <input type="text" id="departamento" name="departamento">
+                    </article>
+                    <article>
+                        <label for="ciudad">CIUDAD</label>
+                        <input type="text" id="ciudad" name="ciudad">
+                    </article>
+                    <article>
+                        <label for="direccion">DIRECCIÓN</label>
+                        <input type="text-number" id="direccion" name="direccion">
+                    </article>
+                    <article>
+                        <label for="telefono">TELEFONO</label>
+                        <input type="number" id="telefono" name="telefono">
+                    </article>
+                    <article>
+                        <label for="celular">CELULAR</label>
+                        <input type="number" id="number" name="number">
+                    </article>
+                    <article>
+                        <label for="email">CORREO ELECTRONICO</label>
+                        <input type="email" id="email" name="email">
+                    </article>
+                    <article>
+                        <label for="email">CONFIRME SU CORREO</label>
+                        <input type="email" id="email" name="email">
+                    </article>
+                </section>
+            </section>
+            <section id="educacion">
+                <h2>EDUCACIÓN</h2>
+                <section class="info">
+                    <article>
+                        <label for="nivel_educacion">NIVEL DE EDUCACIÓN</label>
+                        <select id="nivel_educacion" name="nivel_educacion">
+                            <option value="primaria">Primaria</option>
+                            <option value="bachillerato">Bachillerato</option>
+                            <option value="tecnico">Tecnico</option>
+                            <option value="tecnologo">Tecnologo</option>
+                        </select>
+                    </article>
+                    <article>
+                        <label for="institucion_educativa">INSTITUCIÓN EDUCATIVA</label>
+                        <input type="text" id="institucion_educativa" name="institucion_educativa" placeholder="Ingrese su institución educativa"> 
+                    </article>
+                    <article>
+                        <label for="estado_educacion">ESTADOS DE EDUCACIÓN</label>
+                        <select id="estado_educacion" name="estado_educacion">
+                            <option value="cursando">Cursando</option>
+                            <option value="terminado">Terminado</option>
+                        </select> 
+                    </article>
+                    <button type="submit">Clic acá para agregar educación</button></a>
+                </section>
+            </section>
+            <section id="experiencia">
+                <h2>EXPERIENCIA</h2>
+                <section class="info">
+                    <article>
+                        <label for="nombre_empresa">NOMBRE DE LA EMPRESA</label>
+                        <input type="text" id="nombre_empresa" name="nombre_empresa"> 
+                    </article>
+                    <article>
+                        <label for="meses_experiencia">MESES DE EXPERIENCIA</label>
+                        <input type="number" id="meses_experiencia" name="meses_experiencia"> 
+                    </article>
+                    <button type="submit">Clic acá para agregar experiencia</button></a>
+                </section>
+            </section>
+            <section id="soportes">
+                <h2>SOPORTES</h2>
+                <section class="info">
+                    <article>SOPORTE<button type="submit">Clic acá para subir soportes</button></article>
+                </section>
+            </section>
+            <footer>
+                <a href="./condiciones.html"><button type="submit">Continuar</button></a>
+                <p>Todos los derechos reservados 2023</p>
+            </footer>
+        </main>
+    </body>
+</html>
