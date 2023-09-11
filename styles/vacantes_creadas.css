@@ -1,0 +1,197 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.header {
+    grid-area: header;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 78px;
+    gap: 10px;
+    background-color: #2193b0;
+    border-bottom:2px solid #eee;
+}
+
+.header .img-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 34%;
+}
+
+.header .search {
+    width: 34%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.search input {
+    width: 70%;
+    height: 30px;
+    border-radius: 20px;
+    outline: none;
+    padding-left: 17px;
+    padding-right: 10px;
+    border: 1px solid black;
+}
+
+.bar-nav {
+    width: 34%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2193b0;
+}
+
+.bar-nav .ul-list {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.ul-list li a {
+    color: white;
+    text-decoration: none;
+}
+.contenido{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    height: 400px;
+    margin: 60px;
+}
+.contenido .informacion_uno{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.contenido .informacion_uno .palabras,.palabras2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #000; 
+    width: 100%;
+    height: 100%;
+}
+.palabras2{
+    background-color: rgb(210, 210, 241);
+}
+
+
+
+
+.contenido .informacion_dos{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.contenido .informacion_dos .palabras,.palabras2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #000; 
+    width: 100%;
+    height: 100%;
+   
+}
+
+
+.titulo_principal{
+    display: flex ;
+    align-items:center;
+    justify-content: center;
+    text-decoration: underline;
+    text-decoration-color:#2193b0;
+    text-decoration-thickness: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.botones{
+    margin: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.boton{
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: aliceblue;
+    padding: 10px;
+    text-decoration: none;
+    color: #000;
+    border: 2px solid #000;
+    transition: background-color 0.4s, transform 0.4s;
+}
+.boton :hover{
+    background-color: #15130e ;
+    transition: 0.4s ease-in-out;
+}
+.page .site-footer {
+    grid-area: site-footer;
+    width: 100%;
+    height: 150px;
+    margin-top: 40px;
+    background-color: #2193b0;
+}
+
+.site-footer .Index {
+    background-color: #134F5C;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Index h4 {
+    font-size: 10px;
+}
+
+.Index h4 a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.content-footer {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content-footer .one, .two {
+    display: none;
+}
+
+.three {
+    width: 90%;
+}
+
+.copy {
+    font-size: 12px;
+}
